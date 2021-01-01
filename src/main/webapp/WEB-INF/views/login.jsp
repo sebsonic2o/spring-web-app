@@ -12,7 +12,7 @@ System.out.println("scriplet");
 Date date = new Date();
 %>
 <body>
-<div>Current date is <%= date%></div>
+<div>Current date is <%= date %></div>
 My first JSP
 <form action="/login.do" method="post">
 Name: <input type="text" name="name"/>
