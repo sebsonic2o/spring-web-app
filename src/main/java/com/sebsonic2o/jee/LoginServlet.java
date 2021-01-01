@@ -1,4 +1,4 @@
-package com.sebsonic2o;
+package com.sebsonic2o.jee;
 
 import java.io.IOException;
 

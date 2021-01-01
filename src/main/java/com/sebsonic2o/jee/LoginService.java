@@ -1,4 +1,4 @@
-package com.sebsonic2o;
+package com.sebsonic2o.jee;
 
 public class LoginService {
 
