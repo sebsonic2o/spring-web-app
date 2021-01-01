@@ -9,11 +9,14 @@
 </head>
 <%
 System.out.println("scriplet");
-System.out.println(request.getParameter("name"));
 Date date = new Date();
 %>
 <body>
 <div>Current date is <%= date%></div>
-My first JSP with ${name}
+My first JSP
+<form action="/login.do" method="post">
+Enter your name <input type="text" name="name"/>
+<input type="submit"/>
+</form>
 </body>
 </html>
