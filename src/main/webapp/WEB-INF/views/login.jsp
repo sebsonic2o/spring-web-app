@@ -14,7 +14,7 @@ Date date = new Date();
 <body>
 <div>Current date is <%= date %></div>
 My first JSP
-<form action="/spring-mvc/login" method="post">
+<form action="/login" method="post">
 Name: <input type="text" name="name"/>
 Password: <input type="password" name="password"/>
 <input type="submit"/>
